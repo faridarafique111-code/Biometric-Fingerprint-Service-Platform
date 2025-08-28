@@ -38,7 +38,8 @@ It allows real-time fingerprint capture, registration, and verification using a 
    cd springboot-backend
    Build and run Spring Boot application:
    mvn clean install
-mvn spring-boot:run
+mvn spring-boot:run  
+
 ****Step 3 – Frontend Setup****
 Navigate to the frontend folder:
 cd angular-frontend
