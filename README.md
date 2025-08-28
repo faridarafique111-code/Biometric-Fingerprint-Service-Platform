@@ -39,36 +39,26 @@ It allows real-time fingerprint capture, registration, and verification using a 
    Build and run Spring Boot application:
    mvn clean install
 mvn spring-boot:run
-Step 3 – Frontend Setup
-
+****Step 3 – Frontend Setup****
 Navigate to the frontend folder:
-
 cd angular-frontend
-
-
 Install dependencies:
-
 npm install
-
-
 Run the Angular application:
-
 ng serve
-
-
 Open in browser: http://localhost:4200
 
-Usage
+****Usage****
 
-Open the User List component to view all users.
+-Open the User List component to view all users.
 
-Click Edit to modify user info → opens Register Component.
+-Click Edit to modify user info → opens Register Component.
 
-Capture fingerprints using Verify Fingerprint button.
+-Capture fingerprints using Verify Fingerprint button.
 
-Fill in or edit Name, CNIC, Age, etc.
+-Fill in or edit Name, CNIC, Age, etc.
 
-Press Register / Update → saves user info and fingerprints to database.
+-Press Register / Update → saves user info and fingerprints to database.
 
-Use Verify Fingerprint to match captured fingerprint against stored templates.
+-Use Verify Fingerprint to match captured fingerprint against stored templates.
 
