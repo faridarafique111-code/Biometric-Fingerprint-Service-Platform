@@ -40,7 +40,8 @@ It allows real-time fingerprint capture, registration, and verification using a 
    mvn clean install
 mvn spring-boot:run  
 
-****Step 3 – Frontend Setup****
+****Step 3 – Frontend Setup****  
+
 Navigate to the frontend folder:
 cd angular-frontend
 Install dependencies:
